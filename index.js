@@ -46,26 +46,6 @@ xhr.onload=function(){
 xhr.send();
 
 
-/*let searchNews=document.getElementById('searchNews');
-searchNews.addEventListener('input',search);
-
-function search(){
-    let text=searchNews.value;
-    console.log(text);
-   let cardBody=document.getElementById('news');
-   console.log(cardBody.innerText);
-   //console.log(cardBody.firstElementChild.tagName)
-   let i=1;
-   let c=document.getElementById('heading1');
-   console.log(c.innerText);
-   for(i=1;i<=20;i++){
-       let car=document.getElementById('heading${i}');
-       console.log(car);
-   }
-
-
-
-}*/
 
 
 
