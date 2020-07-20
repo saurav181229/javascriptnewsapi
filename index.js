@@ -6,7 +6,7 @@ let apiKey='3b21fc2348b141e8abb64155b20a3fbb'
 
 let news = document.getElementById('news');
 const xhr=new XMLHttpRequest();
-xhr.open('GET','Access-Control-Allow-Origin:https://newsapi.org/v2/top-headlines?country=in&apiKey=3b21fc2348b141e8abb64155b20a3fbb',true)
+xhr.open('GET','https://newsapi.org/v2/top-headlines?country=in&apiKey=3b21fc2348b141e8abb64155b20a3fbb',true)
 
 xhr.onload=function(){
     if(this.status==200){
